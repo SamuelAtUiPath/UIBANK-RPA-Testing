@@ -109,26 +109,26 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="UiBank_Login" sap:VirtualizedContainerService.HintSize="890,2028" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="UiBank_Login" sap:VirtualizedContainerService.HintSize="890,787" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,57" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;UiBank Login start...&quot;]">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;UiBank Login start...&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome UiBank-Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1948" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Always]" DisplayName="Chrome UiBank-Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,707" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1753" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,512" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="username" />
               <Variable x:TypeArguments="ss:SecureString" Name="password" />
@@ -138,7 +138,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_CredentialsAssetName]" CacheStrategy="None" DisplayName="Get Credential - UiBank_Credentials" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" Username="[username]">
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_CredentialsAssetName]" CacheStrategy="None" DisplayName="Get Credential - UiBank_Credentials" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" Username="[username]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -146,7 +146,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:GetRobotCredential>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="5" DisplayName="Type Into 'Username' in UiBank Login" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Text="[username]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="5" DisplayName="Type Into 'Username' in UiBank Login" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="SameAsCard" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Text="[username]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="uibank.uipath.com/login" ContentHash="A59sjAv-dkWJ3Po-fpFEyQ" DesignTimeRectangle="568, 463, 800, 55" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='username' tag='INPUT' type='text' class='form-control uibank-input ng-valid ng-dirty ng-touched' placeholder='Enter username' aaname='Username' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="977cec6c-10c0-45db-944a-921dfcb2706e" InformativeScreenshot="c593c5cc31ac3444483bc2a0bfc8b1b2.jpg" IsResponsive="True" Reference="pLgomWK6-0mXzj-hpKvdrg/joZjrh0gjUaubN-SeerwEA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -163,7 +163,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password' in UiBank Login" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" SecureText="[password]" Version="V3">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password' in UiBank Login" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" SecureText="[password]" Version="V3">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/login" ContentHash="bSCN3vV7DkC6IJYL-5Nw_A" DesignTimeRectangle="568, 557, 800, 54" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" Guid="6f7fbc88-331f-49a2-ae23-e2027c9f5c8a" InformativeScreenshot="b67a1e89e553204ab56b338e6634e726.jpg" Reference="pLgomWK6-0mXzj-hpKvdrg/c8c2hDtkPESLz4MvgIo_6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -182,13 +182,13 @@
             </uix:NTypeInto>
             <utam:MockActivity DisplayName="Mock Click 'Sign In' in UiBank Login" MockedActivityIdRef="NClick_1">
               <utam:MockActivity.MockedActivity>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In' in UiBank Login" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V3">
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In' in UiBank Login" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V3">
                   <uix:NClick.Target>
                     <uix:TargetAnchorable BrowserURL="uibank.uipath.com/login" ContentHash="-0y2sYxma0Oa5ZY6G9j0WQ" DesignTimeRectangle="888, 707, 160, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" Guid="88f5f2b4-2476-44bd-93e2-36a0985ae8d5" InformativeScreenshot="5072a0aca0fbbeb724ac54ab874c68e2.jpg" Reference="pLgomWK6-0mXzj-hpKvdrg/VGvQGgXmlEiuv9yNSfkgpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                   </uix:NClick.Target>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -214,7 +214,7 @@
                 <uix:NGoToUrl ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Go To URL - uipath.com" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_3" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Timeout="{x:Null}" Url="https://uibank.uipath.com/welcome" Version="V5" />
               </Sequence>
             </utam:MockActivity>
-            <uix:NCheckState DisplayName="Check App State 'login failed' after UiBank Login" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,543" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V3">
+            <uix:NCheckState DisplayName="Check App State 'login failed' after UiBank Login" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V3">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
@@ -244,8 +244,14 @@
               <uix:NCheckState.Target>
                 <uix:TargetAnchorable BrowserURL="uibank.uipath.com/login" ContentHash="0hjMkzxz1UeLkp6XH7zo-w" DesignTimeRectangle="568, 611, 800, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='text-white' tag='DIV' /&gt;" Guid="43c253c0-e519-4f08-956e-58ae560adaa1" InformativeScreenshot="a1ebe1fa702451bcd62520343ad7d867.jpg" Reference="pLgomWK6-0mXzj-hpKvdrg/XhqrENonvU-suQjVQQ3-eg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
             </uix:NCheckState>
-            <uix:NCheckState DisplayName="Check App State 'Welcome!' after UiBank Login" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,666" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V3">
+            <uix:NCheckState DisplayName="Check App State 'Welcome!' after UiBank Login" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="84037b25-0cda-4923-8a77-ee7a9eea8d05" Version="V3">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,165" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
@@ -309,7 +315,7 @@
               </uix:NCheckState.Target>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>

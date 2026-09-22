@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V0CQ5KRrHEy5Ueo9tgG9Tg" Reference="ZKxc45lPuUOgwjADdcqFvg/65hdK6FTUECQiDMw-6ulnQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="837, 907, 245, 50" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submitButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='submitButton' tag='BUTTON' type='submit' class='btn btn-white' aaname='Submit Loan Application' check:text='Submit Loan Application' /&gt;" Guid="1c1497f2-7304-4a7a-a8cf-c59742e5c8da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPkAAAA2CAYAAAAF8T/xAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADASURBVHhe7dNBCQAwDMDA+vc7Bvt0PsIFTkLm3LdAl8khzuQQZ3KIMznEmRziTA5xJoc4k0OcySHO5BBncogzOcSZHOJMDnEmhziTQ5zJIc7kEGdyiDM5xJkc4kwOcSaHOJNDnMkhzuQQZ3KIMznEmRziTA5xJoc4k0OcySHO5BA3KymdyaV4JpfimVyKZ3IpnsmleCaX4plcimdyKZ7JpXgml+KZXIpncimeyaV4JpfimVyKZ3IpnsmleCaX0u1+i45C/hqgylkAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Apply' /&gt;" SearchSteps="FuzzySelector" Version="V4">
+      <imageRef attrName="InformativeScreenshot" originalValue="e2adf45c0b54e7c6a141d9d1fe637f39.png" xmlns="">0FBr1Y1waU06J3yQZLHcJRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

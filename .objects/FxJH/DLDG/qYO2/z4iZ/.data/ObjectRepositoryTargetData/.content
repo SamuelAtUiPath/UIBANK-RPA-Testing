@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9q6D4hYtV0eAx79i2Yu8NQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uibank.uipath.com/loans/result//0/false" DesignTimeRectangle="372, 312, 1192, 116" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' aaname='Sorry, at this time you have not been approved for a loan.' /&gt;" Guid="068f5fcf-f0bc-42d3-864d-3c84b7815078" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan result' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="972873d70b02e39d90f73a8fcb40d098.jpg" xmlns="">0vQSVIZKSF0uN48G-ASvj8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

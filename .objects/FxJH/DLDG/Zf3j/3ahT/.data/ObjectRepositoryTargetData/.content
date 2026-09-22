@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iGJGRwMxOUuEHS4rQUFSVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="uipathlabs.uipath.com/sandboxes/cmnga98ep02unqsfyv3u9l8v6" DesignTimeRectangle="1008, 538, 13, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='rateValue' tag='SPAN' /&gt;" Guid="5d9880c9-eeb6-46a2-8646-8e3bea8bd049" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan details' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f58652b69aa09687dd1ca5dbdad8388f.jpg" xmlns="">01_8cFqdbm0G-Oh2lYn1osg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

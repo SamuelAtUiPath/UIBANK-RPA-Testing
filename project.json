@@ -23,7 +23,7 @@
     "netFrameworkLazyLoading": false,
     "isPausable": true,
     "isAttended": false,
-    "requiresUserInteraction": false,
+    "requiresUserInteraction": true,
     "supportsPersistence": false,
     "workflowSerialization": "NewtonsoftJson",
     "excludedLoggedData": [

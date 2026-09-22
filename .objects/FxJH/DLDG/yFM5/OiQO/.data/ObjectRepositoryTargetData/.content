@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8QmSCby9r0yoyyJyPBANgg" Reference="pLgomWK6-0mXzj-hpKvdrg/OiQONDmWA0qnnEI-z6pUKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="857, 533, 222, 50" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='btn btn-white form-button' aaname='Retrieve Loan Details' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Retrieve Loan Details' /&gt;" Guid="3fa8ba1d-c453-4a6a-8e6e-bb866638a80b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Lookup' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="467619665fd2e84f825f0ff11beb6f4b.jpg" xmlns="">05ApRpjaFRUOVx4uOV-emMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

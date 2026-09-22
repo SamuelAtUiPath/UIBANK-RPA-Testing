@@ -1,0 +1,16 @@
+﻿{
+  "Name": "amount",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "_IfegB8lY0u8C1d5rxXqFA",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/_IfegB8lY0u8C1d5rxXqFA",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/Zf3jfDw850uQ6WaWq9wUCQ",
+  "Created": "2026-09-22T18:15:07.0061295Z",
+  "Updated": "2026-09-22T18:15:18.7697132Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
