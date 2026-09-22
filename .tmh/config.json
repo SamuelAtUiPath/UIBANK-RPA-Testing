@@ -1,0 +1,9 @@
+{
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://staging.uipath.com/universe/earth/testmanager_/",
+  "defaultProject": {
+    "id": "7a441c1c-00aa-0200-aec0-0b4a23a20264",
+    "name": "UIBANK - RPA Testing",
+    "key": "RPAUIBANK"
+  }
+}

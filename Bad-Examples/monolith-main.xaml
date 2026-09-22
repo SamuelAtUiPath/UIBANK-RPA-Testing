@@ -1,0 +1,289 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="monolith_main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Monolith Main" sap:VirtualizedContainerService.HintSize="1331,1215" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank-Login - Google&#xA;Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,223" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="d6c0a5f1-6a35-492a-b5b4-0b30824bb632">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="UiBank-Login - Google&#xA;Chrome" sap:VirtualizedContainerService.HintSize="480,168" sap2010:WorkflowViewState.IdRef="Sequence_0">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6c0a5f1-6a35-492a-b5b4-0b30824bb632">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;&lt;webctrl tag='INPUT'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;&lt;webctrl tag='INPUT'/&gt;" Guid="c49093aa-b633-48c6-95d0-fd5d23e9ecd1" InformativeScreenshot="54ac089534144e4db93b035a4423398e.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6c0a5f1-6a35-492a-b5b4-0b30824bb632">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;&lt;webctrl tag='INPUT' type='password'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;&lt;webctrl tag='INPUT' type='password'/&gt;" Guid="a1351aeb-4f69-4567-88ee-0efa187e09b6" InformativeScreenshot="4616ebcbc8054d65a5f07b0cd1546799.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d6c0a5f1-6a35-492a-b5b4-0b30824bb632">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" Guid="e47b41de-7c89-4594-b5ec-1fa126927e3c" InformativeScreenshot="2c0203e48a3244998282d7ee4892a8c7.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank-Login'/&gt;" Url="https://uibank.uipath.com/login" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank - Accounts - Google&#xA;Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,175" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="bb2b4874-277b-4cd9-beca-8d6bed4066fa">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="UiBank - Accounts - Google&#xA;Chrome" sap:VirtualizedContainerService.HintSize="480,120" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bb2b4874-277b-4cd9-beca-8d6bed4066fa">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank - Accounts'/&gt;&lt;webctrl id='applyForLoan' tag='A'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank - Accounts'/&gt;&lt;webctrl id='applyForLoan' tag='A'/&gt;" Guid="6e73c48a-8411-4240-9c29-2e1062c949d6" InformativeScreenshot="f51729c113d34463bc0e9382eb053e1c.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="bb2b4874-277b-4cd9-beca-8d6bed4066fa">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Home'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Home'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" Guid="ba7c279d-49e6-4141-bb5c-f1bf72255488" InformativeScreenshot="596ab4279a2b40b781fc8bae3ac3e9e9.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank - Accounts'/&gt;" Url="https://uibank.uipath.com/accounts" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank-Loan Apply - Google&#xA;Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,364" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="162cfd7c-50f8-4b28-8ff3-19237b5f8ea1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="UiBank-Loan Apply - Google&#xA;Chrome" sap:VirtualizedContainerService.HintSize="480,309" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Type&#xA;&#xA;- Email&#xA;&#xA;- Amount&#xA;&#xA;- Loan Term&#xA;&#xA;- Yearly Income&#xA;&#xA;- Age" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,237" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="162cfd7c-50f8-4b28-8ff3-19237b5f8ea1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Apply'/&gt;&lt;webctrl tag='SELECT'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Apply'/&gt;&lt;webctrl tag='SELECT'/&gt;" Guid="4bf05cc9-f108-4ce3-974f-c363212647e7" InformativeScreenshot="acabe2eaf3874c8eb436b14cc6335667.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="162cfd7c-50f8-4b28-8ff3-19237b5f8ea1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Apply'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Apply'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" Guid="ecfe50e5-24ec-4602-b1b6-a8eeb1d69160" InformativeScreenshot="d5efd7f6a4c847bfb1fe14eeb9cdc145.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank-Loan Apply'/&gt;" Url="https://uibank.uipath.com/loans/apply" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank-Loan result - Google&#xA;Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,127" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="c389f656-1632-4426-9b2a-3c4c18c8f215">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="UiBank-Loan result - Google&#xA;Chrome" sap:VirtualizedContainerService.HintSize="480,72" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c389f656-1632-4426-9b2a-3c4c18c8f215">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan result'/&gt;&lt;webctrl id='loanHomePage' tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan result'/&gt;&lt;webctrl id='loanHomePage' tag='BUTTON' type='submit'/&gt;" Guid="ea241d5b-8dba-487b-a145-87d6bf6005a9" InformativeScreenshot="76687fd3b28a44a8870682f7d3355ae2.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank-Loan result'/&gt;" Url="https://uibank.uipath.com/loans/result/6aac3df95765320048f849d1/6/true" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank-Loan Home - Google&#xA;Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,175" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="d155f059-89d2-495c-8f80-7e93b11f8186">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="UiBank-Loan Home - Google&#xA;Chrome" sap:VirtualizedContainerService.HintSize="480,120" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d155f059-89d2-495c-8f80-7e93b11f8186">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Home'/&gt;&lt;webctrl id='existingButton' tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Home'/&gt;&lt;webctrl id='existingButton' tag='BUTTON' type='submit'/&gt;" Guid="5b191049-f3e2-40d2-8a46-54737979e6d1" InformativeScreenshot="0782a34ffefb48e784533e272e8bbde5.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d155f059-89d2-495c-8f80-7e93b11f8186">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Lookup'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan Lookup'/&gt;&lt;webctrl tag='BUTTON' type='submit'/&gt;" Guid="7e02a50f-594b-441d-8707-e14bf5b01351" InformativeScreenshot="1fea40a79bae441c8041a920b1a495ea.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank-Loan Home'/&gt;" Url="https://uibank.uipath.com/loans" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: UiBank-Loan details - Google&#xA;Chrome" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="480,127" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="ab990c4c-6951-40d5-afd5-7e6381fd046a">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="UiBank-Loan details - Google&#xA;Chrome" sap:VirtualizedContainerService.HintSize="480,72" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ab990c4c-6951-40d5-afd5-7e6381fd046a">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="0, 0, 0, 0" ElementType="InputBox" FullSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan details'/&gt;&lt;webctrl tag='H5' idx='6'/&gt;" FuzzySelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan details'/&gt;&lt;webctrl tag='H5' idx='6'/&gt;" Guid="9308c1c6-845f-418a-8d4a-004daaf57450" InformativeScreenshot="48d8e4e6858341398debd90bfdb3bcfe.png" SearchSteps="Selector, FuzzySelector" />
+              </uix:NClick.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" FilePath="C:\Program Files\Google\Chrome\Application\chrome.exe" Selector="&lt;html app='chrome.exe' title='UiBank-Loan details'/&gt;" Url="https://uibank.uipath.com/loans/detailView/true/6aac3df95765320048f849d1/5/10000/6/26/70000/someone@sample.com" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

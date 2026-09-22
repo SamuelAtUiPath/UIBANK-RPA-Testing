@@ -1,0 +1,6 @@
+{
+  "Name": "UIBANK RPA Testing",
+  "ProjectType": "Process",
+  "Description": "Dedicated for RPA testing examples with UiBank",
+  "MainFile": "Main.xaml"
+}

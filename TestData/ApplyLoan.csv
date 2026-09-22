@@ -1,0 +1,6 @@
+Name,Email,LoanAmount,LoanTerm,YearlyIncome,Age,ExpectedLoanId,ExpectedLoanRate
+John Doe,john.doe@example.com,5000,24,55000,30,1001,5.0
+Jane Smith,jane.smith@example.com,10000,36,65000,28,1002,4.5
+Alice Brown,alice.brown@example.com,15000,48,75000,35,1003,4.0
+Bob White,bob.white@example.com,20000,60,85000,40,1004,3.5
+Chris Green,chris.green@example.com,25000,72,95000,45,1005,3.0

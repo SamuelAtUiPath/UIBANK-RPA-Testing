@@ -1,0 +1,29 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "7a6ac65a-5903-47ed-a913-482188d409a9",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_CredentialsAssetName": {
+            "type": "string",
+            "x-default-expression": "\"UiBank_Credentials\"",
+            "default": "UiBank_Credentials"
+          },
+          "out_LoanApproved": {
+            "type": "boolean"
+          },
+          "in_Age": {
+            "type": "string",
+            "x-default-expression": "\"14\"",
+            "default": "14"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}

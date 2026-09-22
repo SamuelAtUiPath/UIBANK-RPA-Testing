@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://example.com/loan-application.schema.json",
+    "title": "Loan Application",
+    "description": "Schema based on ApplyLoan.csv",
+    "type": "object",
+    "properties": {
+        "Name": {
+            "type": "string"
+        },
+        "Email": {
+            "type": "string"
+        },
+        "LoanAmount": {
+            "type": "integer"
+        },
+        "LoanTerm": {
+            "type": "integer"
+        },
+        "YearlyIncome": {
+            "type": "integer"
+        },
+        "Age": {
+            "type": "integer"
+        },
+        "ExpectedLoanId": {
+            "type": "integer"
+        },
+        "ExpectedLoanRate": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "Name",
+        "Email",
+        "LoanAmount",
+        "LoanTerm",
+        "YearlyIncome",
+        "Age",
+        "ExpectedLoanId",
+        "ExpectedLoanRate"
+    ]
+}
