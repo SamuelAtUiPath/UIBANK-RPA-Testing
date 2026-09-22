@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Loan denied message",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "z4iZzLsjukmvQnB6_ISXeQ",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/z4iZzLsjukmvQnB6_ISXeQ",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/qYO22LxIrk6UL05QkgC-PA",
+  "Created": "2026-09-22T18:05:44.2384211Z",
+  "Updated": "2026-09-22T18:05:53.9872416Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

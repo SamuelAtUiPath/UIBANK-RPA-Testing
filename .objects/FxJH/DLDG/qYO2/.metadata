@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Apply Loan Results",
+  "Type": "Screen",
+  "Id": "qYO22LxIrk6UL05QkgC-PA",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/qYO22LxIrk6UL05QkgC-PA",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/DLDGiqzJ0UOKEUP4hYQxhQ",
+  "Created": "2026-09-22T18:04:17.2612988Z",
+  "Updated": "2026-09-22T18:04:51.2573719Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

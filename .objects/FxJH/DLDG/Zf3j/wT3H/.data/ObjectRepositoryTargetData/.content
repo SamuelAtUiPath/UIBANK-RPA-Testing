@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oxnBkAiC9UaVzU7KPW3kVQ" Reference="ZKxc45lPuUOgwjADdcqFvg/5dXGzZnWo0KFKgCxVZ7HMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/detailView/true/6706e19be86ffe69802e37f3/10/50000/6/52/20000/someone@sample.com" DesignTimeRectangle="924, 410, 241, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='SPAN' type='' class='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="b0948d77-22b8-4621-b7a4-4280649accc0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan details' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="520e60971635a74dcf7fdc0fb0d55d72.jpg" xmlns="">0vpm5cW8-8Ee6rtjG7tZbvg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "term",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "U7Csw9wHUkGTbLPgkdLNSQ",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/U7Csw9wHUkGTbLPgkdLNSQ",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/Zf3jfDw850uQ6WaWq9wUCQ",
+  "Created": "2026-09-22T18:15:07.3928329Z",
+  "Updated": "2026-09-22T18:15:32.5410094Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

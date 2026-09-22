@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="G5-PJmQlWEag2TXrGx3tDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://uibank.uipath.com/loans/result//0/false" DesignTimeRectangle="372, 312, 1192, 116" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='text-center text-white header' aaname='Sorry, at this time you have not been approved for a loan.' check:innerText='Sorry, at this time you have not been approved for a loan.' /&gt;" Guid="f4fe2aef-1731-4fca-9e24-d7a9cb5321c3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank-Loan result' /&gt;" SearchSteps="FuzzySelector" Version="V4">
+      <imageRef attrName="InformativeScreenshot" originalValue="d25fed96330a42df62bec460c88af87d.png" xmlns="">0U2S2v8q6vkimaJPtrBFkdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

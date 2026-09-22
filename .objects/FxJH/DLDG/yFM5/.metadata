@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Loan Lookup",
+  "Type": "Screen",
+  "Id": "yFM5dfpU0ECldGiuc-Hl5g",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/yFM5dfpU0ECldGiuc-Hl5g",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/DLDGiqzJ0UOKEUP4hYQxhQ",
+  "Created": "2026-09-22T18:11:30.744186Z",
+  "Updated": "2026-09-22T18:11:36.1348022Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

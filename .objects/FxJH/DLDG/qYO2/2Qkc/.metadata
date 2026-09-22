@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Loan APR",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2QkcJFInSUih-3EpYtA46w",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/2QkcJFInSUih-3EpYtA46w",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/qYO22LxIrk6UL05QkgC-PA",
+  "Created": "2026-09-22T18:07:04.2510783Z",
+  "Updated": "2026-09-22T18:07:04.2510783Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

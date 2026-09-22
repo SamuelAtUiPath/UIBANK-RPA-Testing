@@ -1,0 +1,16 @@
+﻿{
+  "Name": "rate",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "3ahTW74CuEyA4Nx0Dcw4oA",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/3ahTW74CuEyA4Nx0Dcw4oA",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/Zf3jfDw850uQ6WaWq9wUCQ",
+  "Created": "2026-09-22T18:15:07.1576038Z",
+  "Updated": "2026-09-22T18:15:29.1038092Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

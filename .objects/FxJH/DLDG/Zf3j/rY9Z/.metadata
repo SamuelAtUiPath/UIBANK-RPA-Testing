@@ -1,0 +1,16 @@
+﻿{
+  "Name": "yearly income",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "rY9ZeF8QAUijnEkEBcHLqQ",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/rY9ZeF8QAUijnEkEBcHLqQ",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/Zf3jfDw850uQ6WaWq9wUCQ",
+  "Created": "2026-09-22T18:15:07.5618663Z",
+  "Updated": "2026-09-22T18:15:37.6639168Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

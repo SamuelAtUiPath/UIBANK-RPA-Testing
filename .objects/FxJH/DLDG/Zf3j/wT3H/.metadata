@@ -1,0 +1,16 @@
+﻿{
+  "Name": "email",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "wT3HA_zS9Uq7CV0WO__NiQ",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/wT3HA_zS9Uq7CV0WO__NiQ",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/Zf3jfDw850uQ6WaWq9wUCQ",
+  "Created": "2026-09-22T18:14:47.5068266Z",
+  "Updated": "2026-09-22T18:15:25.7679054Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

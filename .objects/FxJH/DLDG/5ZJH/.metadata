@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Apply Loan Home",
+  "Type": "Screen",
+  "Id": "5ZJHEJpjf0yvobN4F_GKgg",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/5ZJHEJpjf0yvobN4F_GKgg",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/DLDGiqzJ0UOKEUP4hYQxhQ",
+  "Created": "2026-09-22T17:55:54.3431896Z",
+  "Updated": "2026-09-22T17:56:11.3041176Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

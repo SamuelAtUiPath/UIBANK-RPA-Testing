@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Loan ID",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "JU6GYm7gMk2yWzvzbH-jxQ",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/JU6GYm7gMk2yWzvzbH-jxQ",
+  "ParentRef": "pLgomWK6-0mXzj-hpKvdrg/qYO22LxIrk6UL05QkgC-PA",
+  "Created": "2026-09-22T18:07:04.4067762Z",
+  "Updated": "2026-09-22T18:07:04.4067762Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
