@@ -1,8 +1,0 @@
-{
-  "mockedWorkflows": [
-    {
-      "mockFilePath": "Mocks\\UiBank\\UiBank_Login_mock.xaml",
-      "sourceWorkflowPath": "UiBank\\UiBank_Login.xaml"
-    }
-  ]
-}
