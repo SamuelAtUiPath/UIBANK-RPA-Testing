@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Chrome UiBank",
+  "Type": "App",
+  "Id": "FxJHQxi690y5WkOkNHV7Jw",
+  "Reference": "pLgomWK6-0mXzj-hpKvdrg/FxJHQxi690y5WkOkNHV7Jw",
+  "Created": "2026-09-22T17:32:23.2342115Z",
+  "Updated": "2026-09-22T17:32:39.1374992Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=26.9.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
